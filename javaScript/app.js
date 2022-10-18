@@ -36,28 +36,33 @@ faqItemHeaders.forEach(faqItemHeaders =>{
 
 // On Scroll Effect
 
-scrollFunction();
+// scrollFunction();
 
-window.onscroll = function() {scrollFunction()};
+// window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
+// function scrollFunction() {
 
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     
+//   } else {
+//     document.getElementById("navigation").style.background = "transparent";
+//   }
+// }
 
-    logo.innerHTML = `<img id="brand" src="./assets/FusionTechClub.svg" alt="Logo">
-    <span id="brand-text">Fusion Tech Club</span>`
+// Sidebar
 
-    logo.classList.remove("animate-logo-reverse");
-    logo.classList.add("animate-logo");
-    
-  } else {
-    document.getElementById("navigation").style.background = "transparent";
+const sidebar = document.getElementById("sidebar");
 
-    logo.innerHTML = `<img id="brand" src="./assets/UkernaaLogo.svg" alt="Logo">
-    <img id="brand-text" src="./assets/ukernaa_text_logo.svg" alt="Logo">`
-
-    logo.classList.remove("animate-logo");
-    logo.classList.add("animate-logo-reverse");
-  }
+function showSidebar() {
+  sidebar.classList.remove("sidebar-hide");
+  sidebar.classList.add("sidebar-show");
+  document.body.style.overflowY = "hidden"
 }
+
+
+function hideSidebar() {
+  sidebar.classList.remove("sidebar-show");
+  sidebar.classList.add("sidebar-hide");
+  document.body.style.overflowY = "scroll"
+}
+
