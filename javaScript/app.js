@@ -32,3 +32,32 @@ faqItemHeaders.forEach(faqItemHeaders =>{
     }
   })
 })
+
+
+// On Scroll Effect
+
+scrollFunction();
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    
+
+    logo.innerHTML = `<img id="brand" src="./assets/FusionTechClub.svg" alt="Logo">
+    <span id="brand-text">Fusion Tech Club</span>`
+
+    logo.classList.remove("animate-logo-reverse");
+    logo.classList.add("animate-logo");
+    
+  } else {
+    document.getElementById("navigation").style.background = "transparent";
+
+    logo.innerHTML = `<img id="brand" src="./assets/UkernaaLogo.svg" alt="Logo">
+    <img id="brand-text" src="./assets/ukernaa_text_logo.svg" alt="Logo">`
+
+    logo.classList.remove("animate-logo");
+    logo.classList.add("animate-logo-reverse");
+  }
+}

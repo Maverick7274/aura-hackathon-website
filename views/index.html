@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
-    <title>a_cypher | Fusion Tech Club | Amity University Greater Noida</title>
+    <title>Docket v1 | Fusion Tech Club | Amity University Greater Noida</title>
     <link rel="stylesheet" href="../stylesheet/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -13,8 +13,11 @@
     <header>
         <nav>
             <div class="navbar">
+                <!-- <a id="ham-icon" onclick="showSidebar()">
+                    <i class="fa-solid fa-bars"></i>
+                </a> -->
                 <div class="logo">
-                    <img src="../images/FusionTechClub.svg" alt="Fusion Tech Club">
+                    <a href="index.html"><img src="../images/FusionTechClub.svg" alt="Fusion Tech Club"></a>
                 </div>
                 <div class="nav-links">
                     <ul>
@@ -30,9 +33,21 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Sidebar Starts -->
+    <aside id="sidebar">
+        <a class="cancel" onclick="hideSidebar()">
+            <i class="fa-solid fa-xmark"></i>
+        </a>
+        <a href="#" onclick="hideSidebar()">Home</a>
+        <a href="#about-rd" onclick="hideSidebar()">About</a>
+        <a href="#syllabus" onclick="hideSidebar()">Syllabus</a>
+        <a href="#register" onclick="hideSidebar()">Register</a>
+        <a href="#register" onclick="hideSidebar()">Join Our Telegram</a>
+    </aside>
+    <!-- Sidebar Ends -->
     </header>
     <div id="section-break-hero">
-        <div class="line"></div>
     </div>
     
     <!-- ---------------------------------- Hero Section ---------------------------------- -->
@@ -45,8 +60,9 @@
         </div>
         <div class="video-overlay"></div>
           <div class="content">
-            <h1>a_ <span class="cypher">cypher</span> (2022)</h1>
-            <h2>Weekends are for vacation, but techies vow to participate in a_cypher(2022) unless they have commitment concerns.</h2>
+            <h1>Docket <span class="version">v1</span></h1>
+            <h3></h3>
+            <h2>Weekends are for vacation, but techies vow to participate in Docket <span class="version">v1</span> unless they have commitment concerns.</h2>
             <h3>You don't need 24 reasons to participate in our 24-hour hackathon.</h3>
             <div class="btn-area">
                 <a class="hero-btn" href="#">Register Now</a>
