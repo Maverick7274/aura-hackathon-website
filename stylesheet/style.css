@@ -133,7 +133,7 @@ body
 }
 .submit-btn:active
 {
-    background: #fea500;
+    background: #feb3ca;
     color: #fff;   
 }
 
@@ -172,6 +172,12 @@ header .navbar
     height: 100%;
     padding: 0 2rem;
 }
+
+.cypher
+{
+    color: #88e714;
+}
+
 header nav ul
 {
     list-style: none;
