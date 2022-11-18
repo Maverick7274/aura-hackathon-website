@@ -135,6 +135,20 @@ body
 }
 
 
+@media (max-width: 525px){
+    #domain, #prize, #judges, #schedule, #partners, #faqs, #contact
+    {
+        margin: 0px;
+        color: #f5f5f5;
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+    }
+
+    #domain h1, #prize h1, #judges h1, #schedule h1, #partners h1, #faqs h1, #contact h1{
+        font-size: 4rem;
+    }
+}
+
 
 
 
@@ -1163,12 +1177,12 @@ nav .navbar-right ul li a:active
     align-items: center;
 }
 
-.judges-card
-{
+.judges-card {
     border-radius: 25px;
     background: #ffffff33;
-    width: 320px;
+    width: 310px;
     box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    margin: 25px;
 }
 
 .judges-card-wrapper
@@ -1177,7 +1191,6 @@ nav .navbar-right ul li a:active
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
 }
 
 
