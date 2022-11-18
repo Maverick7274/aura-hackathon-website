@@ -1,4 +1,4 @@
-/* Fonts */
+/* -------- Font Imports ---------- */
 
 /* Rubik */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -10,6 +10,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
 
+
+
+
+/* --------- Variables ---------- */
+
+:root{
+    --dark-text: #14132a;
+}
+
+
+
+
+/* ---------- Webkits ----------- */
 
 /* Scroll */
 ::-webkit-scrollbar
@@ -38,9 +51,11 @@
 }
 
 
-/* Utility Classes */
 
 
+
+
+/* --------- Tags ----------- */
 *
 {
     padding: 0;
@@ -65,6 +80,11 @@ body
     background-color: #14132a;
 }
 
+
+
+/* ---------- Utility Classes ---------- */
+
+
 .section-break
 {
     height: 10vh;
@@ -82,6 +102,11 @@ body
 
 
 
+
+
+/* ---------- IDs ---------- */
+
+
 #domain, #prize, #judges, #schedule, #partners, #faqs, #contact
 {
     margin: 4rem;
@@ -91,7 +116,12 @@ body
     font-size: 3rem;
 }
 
-/* Utility Buttons */
+
+
+
+
+
+/* ---------- Utility Buttons ------------ */
 
 .hero-btn
 {
@@ -206,11 +236,15 @@ nav .navbar-right ul
     align-items: center;
     list-style: none;
     flex-direction: row;
-    margin-right: 5rem;
+    margin-right: 2rem;
     gap: 1rem;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 1.3rem;
+}
+
+nav .navbar-right ul li {
+    margin: 0px 10px;
 }
 
 nav .navbar-right ul li a
@@ -228,16 +262,6 @@ nav .navbar-right ul li a:hover
 nav .navbar-right ul li a:active
 {
     opacity: 0.3;
-}
-
-
-@media (max-width: 1118px) {
-    nav .navbar-right ul {
-      margin: 0px 0px;
-    }
-    nav .navbar-right ul li {
-      margin: 0px 15px;
-    }
 }
   
 @media (max-width: 970px) {
@@ -443,12 +467,11 @@ nav .navbar-right ul li a:active
     z-index: -1;
 }
 
-#play-pause-button
-{
+#play-pause-button {
     position: absolute;
-    top: 95%;
-    left: 3.4%;
-    transform: translate(-50%, -50%);
+    top: 88%;
+    left: 5.4%;
+    /* transform: translate(-50%, -50%); */
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -497,6 +520,13 @@ nav .navbar-right ul li a:active
     z-index: 10;
 }
 
+
+.hero-section .content .hero-heading{
+    color: var(--dark-text);
+    text-shadow: 1px 1px 1px white;
+    padding: 0px 4em;
+}
+
 .hero-section .content h1
 {
     font-size: 9rem;
@@ -533,28 +563,84 @@ nav .navbar-right ul li a:active
 {
     .video-wrapper
     {
-        height: 100%;
+        height: 100vh;
         width: 100vw;
     }
 
     .video-overlay
     {
-        height: 100%;
+        height: 100vh;
         width: 100vw;
     }
 }
 
 
 
-@media (max-width: 1118px) {
+@media (max-width: 1312px) {
+    .hero-section .content h1 {
+        font-size: 6rem;    
+    }
+
+
+    .hero-section .content h2
+    {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+
+    .hero-section .content h3
+    {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-bottom: 4rem;
+        font-style: italic;
+    }
 
 }
   
-@media (max-width: 970px) {
 
+@media (max-width: 680px) {
+    .hero-section .content .hero-heading{
+        color: var(--dark-text);
+        text-shadow: 1px 1px 1px white;
+        padding: 0px 2em;
+    }
+
+    .hero-section .content h1 {
+        font-size: 4rem;    
+    }
+
+    .hero-section .content h2
+    {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+
+    .hero-section .content h3
+    {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-bottom: 4rem;
+        font-style: italic;
+    }
 }
   
 @media (max-width: 410px) {
+    
+    .hero-section .content h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+
+    .hero-section .content h3 {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 4rem;
+        font-style: italic;
+    }
 
 }
 
