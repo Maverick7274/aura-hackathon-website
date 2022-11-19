@@ -1980,6 +1980,17 @@ strong
     {
         font-size: 1rem;
     }
+
+    .submission-content form .name
+    {
+        font-size: 3.4rem;
+    }
+
+    .submission-content form h1
+    {
+
+        font-size: 2.5rem;
+    }
     
 }
 
@@ -2093,7 +2104,6 @@ strong
     .registration-content form label
     {
         font-size: 1rem;
-        font-family: 'Rubik', sans-serif;
     }
     .registration-content form input,
     .registration-content form textarea
