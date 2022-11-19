@@ -682,6 +682,11 @@ nav .navbar-right ul li a:active
         font-style: italic;
     }
 
+    .scroll-button
+    {
+        display: none;
+    }
+
 }
 
 
