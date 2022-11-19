@@ -28,14 +28,13 @@
 
 # Secondary
 ## Behaviours
-*  **The website should be responsive**
-*  **Scroll bar should be hidden in Hero Section**
 
 
 ---
 
 # THINGS DONE
-
+*  **The website should be responsive**
+*  **Scroll bar should be hidden in Hero Section**
 
 ## Main Sections
 * HOME
