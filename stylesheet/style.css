@@ -112,6 +112,11 @@ body
     background: #fff;
 }
 
+.seperator
+{
+    width: 100%;
+    height: 5rem;
+}
 
 
 
@@ -1880,6 +1885,38 @@ strong
 {
     font-weight: 650;
 }
+@media (max-width: 870px)
+{
+    .rules-content
+    {
+        margin: 1rem;
+    }
+    .rules-content h1
+    {
+        font-size: 2.5rem;
+    }
+    .rules-content h1 .name
+    {
+        font-size: 3.4rem;
+    }
+
+    .rules-content h2
+    {
+        font-size: 2.5rem;
+    }
+    .rules-content h3
+    {
+        font-size: 2rem;
+    }
+    .rules-content p,
+    .rules-content ul li
+    {
+        font-size: 1rem;
+        text-align: justify;
+    }
+}
+
+
 
 
 
@@ -2139,6 +2176,93 @@ strong
     .registration-content form h3
     {
         font-size: 1.8rem;
+    }
+    
+}
+
+
+
+/* Problem Statement Page */
+
+.prob-statement
+{
+    margin: 7rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prob-statement h1
+{
+    font-size: 4rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    margin: 2rem 0;
+    text-align: center;
+    color: #feb3ca;
+}
+
+
+.prob-statement h1 .name
+{
+    color: #fff;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 9rem;
+    text-align: center;
+}
+
+.prob-statement h2
+{
+    font-size: 3rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0;
+    color: #fea500;
+}
+
+.prob-statement h3
+{
+    font-size: 1.8rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    margin: 2rem 0;
+    color: #88e714;
+}
+
+.prob-statement p,
+.prob-statement ol li
+{
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 600px)
+{
+    .prob-statement h1 .name
+    {
+        font-size: 3.4rem;
+    }
+    .prob-statement h1
+    {
+        font-size: 2.5rem;
+    }
+    .prob-statement h2
+    {
+        font-size: 2rem;
+    }
+    .prob-statement h3
+    {
+        font-size: 1.8rem;
+    }
+    .prob-statement p,
+    .prob-statement ol li
+    {
+        font-size: 1rem;
     }
     
 }
