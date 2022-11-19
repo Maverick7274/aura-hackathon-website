@@ -145,7 +145,7 @@ body
     }
 
     #domain h1, #prize h1, #judges h1, #schedule h1, #partners h1, #faqs h1, #contact h1{
-        font-size: 4rem;
+        font-size: 2rem;
     }
 }
 
@@ -1093,7 +1093,7 @@ nav .navbar-right ul li a:active
     position: absolute;
     background: #ffffff;
     width: 2px;
-    height: 536%;
+    height: 284rem;
     left: calc(50% - 1px);;
 }
 
@@ -1158,6 +1158,73 @@ nav .navbar-right ul li a:active
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.9rem;
 }
+
+
+
+
+
+
+@media (max-width: 1330px){
+    .schedule-lines
+    {
+        position: absolute;
+        background: #ffffff;
+        width: 2px;
+        height: 318rem;
+        left: calc(50% - 1px);;
+    }
+}
+
+
+@media (max-width: 878px){
+    .schedule-lines
+    {
+        position: absolute;
+        background: #ffffff;
+        width: 2px;
+        height: 331rem;
+        left: calc(50% - 1px);;
+    }
+}
+
+
+
+
+@media (max-width: 768px){
+    .schedule-lines
+    {
+        position: absolute;
+        background: #ffffff;
+        width: 2px;
+        height: 365rem;
+        left: calc(50% - 1px);;
+    }
+}
+
+
+
+
+@media (max-width: 672px){
+    .schedule-lines
+    {
+        display: none;
+    }
+
+    .schedule-item:nth-child(odd)
+    {
+        padding-right: 0px;
+    }
+    .schedule-item:nth-child(even)
+    {
+        padding-left: 0px;
+    }
+
+    .schedule-item .schedule-dot{
+        display: none;
+    }
+}
+
+
 
 /* Judges */
 
