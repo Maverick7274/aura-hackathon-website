@@ -161,8 +161,20 @@ body
     padding: 4px 10px;
 }
 
+.highlighted-btn
+{
+    filter: drop-shadow(1px 1px 20px #88e714);
+}
 
+.highlighted-btn:hover
+{
+    filter: drop-shadow(1px 1px 10px #88e71492);
+}
 
+.highlighted-btn:active
+{
+    filter: drop-shadow(1px 1px 1px #f5f5f5);
+}
 
 
 /* Header */
