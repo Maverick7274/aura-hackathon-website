@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+    <!-- Navbar Starts -->
     <nav>
         <div class="navbar-left">
             <a id="ham-icon" onclick="showSidebar()">
@@ -23,16 +25,16 @@
                 <li><a href="#section-break-hero">HOME</a></li>
                 <li><a href="#section-break-domain">DOMAINS</a></li>
                 <li><a href="#section-break-prizes">PRIZES</a></li>
-                <li><a href="#section-break-judges">JUDGES</a></li>
                 <li><a href="#section-break-schedule">SCHEDULE</a></li>
-                <li><a href="#section-break-partners">PARTNERS</a></li>
                 <li><a href="#section-break-faqs">FAQS</a></li>
                 <li><a href="#section-break-contact">CONTACT US</a></li>
             </ul>
         </div>
     </nav>
+    <!-- Navbar ends -->
 
-        <!-- Sidebar Starts -->
+
+    <!-- Sidebar Starts -->
     <aside id="sidebar">
         <a class="cancel" onclick="hideSidebar()">
             <i class="fa-solid fa-xmark"></i>
@@ -50,8 +52,10 @@
 
     <div id="section-break-hero">
     </div>
+
+
     
-    <!-- ---------------------------------- Hero Section ---------------------------------- -->
+    <!------------------------------------ Hero Section ------------------------------------>
     <section class="hero-section">
         <div class="video-wrapper">
             <video id="video" playsinline autoplay muted loop>
@@ -62,9 +66,8 @@
         <div class="video-overlay"></div>
         <div class="content">
             <h1>Docket <span class="version">v1</span></h1>
-            <h3></h3>
-            <h2>Weekends are for vacation, but techies vow to participate in Docket <span class="version">v1</span> unless they have commitment concerns.</h2>
-            <h3>You don't need 24 reasons to participate in our 24-hour hackathon.</h3>
+            <h2 class="hero-heading">Weekends are for vacation, but techies vow to participate in Docket <span class="version">v1</span> unless they have commitment concerns.</h2>
+            <h3 class="hero-heading">You don't need 24 reasons to participate in our 24-hour hackathon.</h3>
             <div class="btn-area">
                 <a class="hero-btn" href="./registration.html" target="_blank">Register Now</a>
                 <a class="hero-btn" href="./problemStatements.html" target="_blank">Problem Statements</a>
@@ -79,6 +82,10 @@
         </div>
           <button id="play-pause-button" onclick="playPause()"><i class="fa-solid fa-pause"></i></button>
         </section>
+
+    <!------------------------------ Hero section ends --------------------------------------->
+
+
 
 
     <!-- ---------------------------------- Domains Section ---------------------------------- -->
@@ -136,9 +143,15 @@
             </div>
         </div>
     </section>
+    <!----------------------------------Domain section ends---------------------------------->
 
 
-    <!-- ---------------------------------- Prize Section ---------------------------------- -->
+
+
+
+
+
+    <!------------------------------------ Prize Section ----------------------------------->
     
     
     
@@ -189,6 +202,10 @@
             </div>
         </div>
     </section>
+
+    <!------------------------------ Prize section ends ------------------------------------>
+
+
 
 <!-- ---------------------------------- Judges Section ---------------------------------- -->
 
@@ -290,8 +307,11 @@
         </div>
     </section>
 
-    <!-- ---------------------------------- Schedule Section ---------------------------------- -->
+    <!--------------------------------- Judges Section ends ------------------------------------->
 
+
+
+    <!------------------------------------ Schedule Section ------------------------------------>
 
     <div id="section-break-schedule" class="section-break">
         <!-- <div class="line"></div> -->
@@ -477,8 +497,12 @@
         </div>
     </section>
 
-    <!-- ---------------------------------- Partners Section ---------------------------------- -->
+    <!-- ---------------------------------- Schedule Section ends ---------------------------------- -->
 
+
+
+
+    <!-- ---------------------------------- Partners Section ---------------------------------- -->
 
     <div id="section-break-partners" class="section-break">
         <!-- <div class="line"></div> -->
@@ -489,6 +513,12 @@
         </h1>
     </div>
     <section></section>
+
+    <!-- ---------------------------------- Partners Section ends ---------------------------------- -->
+
+
+
+
 
 
     <!-- ---------------------------------- FAQs Section ---------------------------------- -->
@@ -550,6 +580,12 @@
 
         </div>
     </section>
+
+    <!-- ---------------------------------- FAQs Section ---------------------------------- -->
+
+
+
+
 
     <!-- ---------------------------------- Contact Us Section ---------------------------------- -->
 
@@ -613,6 +649,12 @@
             </div>
         </div>
     </section>
+
+    <!-- ---------------------------------- Contact Us Section ---------------------------------- -->
+
+
+
+    
 
     <!-- ---------------------------------- Footer ---------------------------------- -->
 
@@ -697,6 +739,8 @@
             &#169; Fusion Tech Club | 2022(Powered By Amity University, Greater Noida)
         </div>
     </footer>
+
+    <!-- ---------------------------------- Footer ---------------------------------- -->
     
 </body>
 <script src="../javaScript/app.js"></script>
