@@ -145,7 +145,7 @@ body
     }
 
     #domain h1, #prize h1, #judges h1, #schedule h1, #partners h1, #faqs h1, #contact h1{
-        font-size: 2rem;
+        font-size: 4rem;
     }
 }
 
@@ -1202,8 +1202,6 @@ nav .navbar-right ul li a:active
 }
 
 
-
-
 @media (max-width: 672px){
     .schedule-lines
     {
@@ -1223,6 +1221,10 @@ nav .navbar-right ul li a:active
         display: none;
     }
 }
+
+
+
+
 
 
 
@@ -1393,6 +1395,41 @@ nav .navbar-right ul li a:active
     list-style-type: disc;
     padding-left: 23px;
 }
+
+
+
+
+
+@media (max-width: 1127px){
+    .faq-item{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 753px){
+    .faq-item{
+        width: 90%;
+    }
+
+    .faq-item-header{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 400px){
+    .faq-item{
+        width: 90%;
+    }
+
+    .faq-item-header{
+        font-size: 1rem;
+    }
+}
+
+
+
 
 
 
