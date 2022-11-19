@@ -4,10 +4,240 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet/style.css">
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Docket v1 | Registration</title>
 </head>
 <body>
+    <nav>
+        <div class="navbar-left">
+            <a id="ham-icon" onclick="showSidebar()">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            <a href="./index.html"><img src="../images/FusionTechClub.svg" alt="Fusion Tech Club Logo"></a>
+            <h1>Fusion Tech Club</h1>
+        </div>
+        <div class="navbar-right">
+            <ul>
+                <li>
+                    <a href="./index.html"><i class="fa-sharp fa-solid fa-arrow-left"></i> Go Back</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="registration-content">
+        <form action="" target="_blank">
+            <h1>
+                <span class="name">Docket <span class="version"> v1</span></span><br>Registration
+            </h1>
+            <div class="line"></div>
+            
+            <h2>
+                Team Information
+            </h2>
+
+            <label for="name">Team Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your team name" required>
+
+            
+            <div class="team-info">
+                <div class="reg-form-flex-left">
+                    <h3>
+                        Team Member's Names
+                    </h3>
+                    
+                    <label for="name">Name of 1st Member</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name of 1st Member" required>
+                    
+                    <label for="name">Name of 2nd Member</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name of 2nd Member">
+                    
+                    <label for="name">Name of 3rd Member</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name of 3rd Member">
+                    
+                    <label for="name">Name of 4th Member</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name of 4th Member">
+                </div>
+                <div class="reg-form-flex-right">
+                    <h3>
+                        Team Member's GitHub Profiles
+                    </h3>
+                    <label for="name">GitHub Profile Link of 1st Member</label>
+                    <input type="text" name="name" id="name" placeholder="1st Member's GitHub Repository Link" required>
+                    
+                    <label for="name">GitHub Profile Link of 2nd Member</label>
+                    <input type="text" name="name" id="name" placeholder="2nd Member's GitHub Repository Link">
+                    
+                    <label for="name">GitHub Profile Link of 3rd Member</label>
+                    <input type="text" name="name" id="name" placeholder="3rd Member's GitHub Profile Link">
+                    
+                    <label for="name">GitHub Profile Link of 4th Member</label>
+                    <input type="text" name="name" id="name" placeholder="4th Member's GitHub Repository Link">
+                    
+                </div>
+
+                <div class="reg-form-flex-right">
+
+                    <h3>
+                        Team Member's E-Mail IDs
+                    </h3>
+
+                    <label for="name">E-Mail of 1st Member</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your 1st Member's Email" required>
+                    
+                    <label for="name">E-Mail of 2nd Member</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your 2nd Member's Email">
+                    
+                    <label for="name">E-Mail of 3rd Member</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your 3rd Member's Email">
+                    
+                    <label for="name">E-Mail of 4th Member</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your 4th Member's Email">
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <label for="name">1st Member's Contact Number</label>
+            <input type="text" name="name" id="name" placeholder="1st Member's Contact Number" required>
+            
+            <label for="name">2nd Member's Contact Number</label>
+            <input type="text" name="name" id="name" placeholder="2nd Member's Contact Number">
+            
+            <label for="name">3rd Member's Contact Number</label>
+            <input type="text" name="name" id="name" placeholder="3rd Member's Contact Number">
+            
+            <label for="name">4th Member's Contact Number</label>
+            <input type="text" name="name" id="name" placeholder="4th Member's Contact Number">
+
+            <h2>
+                Official Information
+            </h2>
+
+            <div class="misc-info">
+
+                <h3>
+                    Current Semester
+                </h3>
+
+                <label for="">1st Member's Semester</label>
+                <input type="text" name="name" id="name" placeholder="1st Member's Course" required>
+                
+                <label for="">2nd Member's Semester</label>
+                <input type="text" name="name" id="name" placeholder="2nd Member's Course">
+
+                <label for="">3rd Member's Semester</label>
+                <input type="text" name="name" id="name" placeholder="3rd Member's Course">
+
+                <label for="">4th Member's Semester</label>
+                <input type="text" name="name" id="name" placeholder="4th Member's Course">
+
+                <h3>
+                    Branch
+                </h3>
+
+                <label for="">1st Member's Branch</label>
+                <input type="text" name="name" id="name" placeholder="1st Member's Course" required>
+                
+                <label for="">2nd Member's Branch</label>
+                <input type="text" name="name" id="name" placeholder="2nd Member's Course">
+
+                <label for="">3rd Member's Branch</label>
+                <input type="text" name="name" id="name" placeholder="3rd Member's Course">
+
+                <label for="">4th Member's Branch</label>
+                <input type="text" name="name" id="name" placeholder="4th Member's Course">
+            </div>
+
+            <div class="line"></div>
+
+            <div class="off-info">
+                <div>
+
+                    <h3>
+                        Name of institution
+                    </h3>
+
+                    <label for="">1st Member's institution</label>
+                    <input type="text" name="name" id="name" placeholder="1st Member's institution name" required>
+                    
+                    <label for="">2nd Member's institution</label>
+                    <input type="text" name="name" id="name" placeholder="2nd Member's institution name">
     
+                    <label for="">3rd Member's institution</label>
+                    <input type="text" name="name" id="name" placeholder="3rd Member's institution name">
+    
+                    <label for="">4th Member's institution</label>
+                    <input type="text" name="name" id="name" placeholder="4th Member's institution name">
+                </div>
+                <div>
+                    <h3>
+                        Registration No.(As per institution)
+                    </h3>
+
+                    <label for="">1st Member's Enrollment/Registration Number</label>
+                    <input type="text" name="name" id="name" placeholder="1st Member's Enrollment/Registration Number" required>
+                    
+                    <label for="">2nd Member's Enrollment/Registration Number</label>
+                    <input type="text" name="name" id="name" placeholder="2nd Member's Enrollment/Registration Number">
+    
+                    <label for="">3rd Member's Enrollment/Registration Number</label>
+                    <input type="text" name="name" id="name" placeholder="3rd Member's Enrollment/Registration Number">
+    
+                    <label for="">4th Member's Enrollment/Registration Number</label>
+                    <input type="text" name="name" id="name" placeholder="4th Member's Enrollment/Registration Number">
+                </div>
+                <div>
+
+                    <h3>
+                        Course
+                    </h3>
+
+                    <label for="">1st Member's Course</label>
+                    <input type="text" name="name" id="name" placeholder="1st Member's Course" required>
+                    
+                    <label for="">2nd Member's Course</label>
+                    <input type="text" name="name" id="name" placeholder="2nd Member's Course">
+    
+                    <label for="">3rd Member's Course</label>
+                    <input type="text" name="name" id="name" placeholder="3rd Member's Course">
+    
+                    <label for="">4th Member's Course</label>
+                    <input type="text" name="name" id="name" placeholder="4th Member's Course">
+                </div>
+            </div>
+
+            <div class="faculty-info">
+                <h2>
+                    Faculty Information
+                </h2>
+
+                <label for="">Faculty Name</label>
+                <input type="text" name="name" id="name" placeholder="Faculty Name" required>
+                
+                <label for="">Faculty Email</label>
+                <input type="text" name="name" id="name" placeholder="Faculty Email" required>
+                
+                <label for="">Faculty Contact Number</label>
+                <input type="text" name="name" id="name" placeholder="Faculty Contact Number" required>
+            </div>
+
+            <div class="personal-info">
+                <h2>
+                    Personal Information
+                </h2>
+                <label for="">Preferred Programming Langugaes</label>
+                <input type="text" name="name" id="name" placeholder="Preferred Programming Langugaes">
+                
+                <label for="">Preferred Domains</label>
+                <input type="text" name="name" id="name" placeholder="Preferred Domains">
+            </div>
+
+            <div class="submit-btn-area">
+                <button class="submit-btn" type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
 </body>
 </html>

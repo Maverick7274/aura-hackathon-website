@@ -19,6 +19,17 @@
     --dark-text: #14132a;
 }
 
+::-moz-selection
+{
+    color: #14132a;
+    background: #f99e42;
+}
+  
+::selection
+{
+    color: #14132a;
+    background: #f99e42;
+}
 
 
 
@@ -552,8 +563,8 @@ nav .navbar-right ul li a:active
 
 
 .hero-section .content .hero-heading{
-    color: var(--dark-text);
-    text-shadow: 1px 1px 1px white;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px var(--dark-text);
     padding: 0px 4em;
 }
 
@@ -1803,9 +1814,9 @@ textarea:focus
     font-family: 'Rubik', sans-serif;
     font-weight: 900;
 }
-.rules-content .line
+.line
 {
-    margin-bottom: 3rem;
+    margin: 3rem 0;
     border-bottom: #fff 1px solid;
     display: flex;
     justify-content: center;
@@ -1863,4 +1874,256 @@ textarea:focus
 strong
 {
     font-weight: 650;
+}
+
+
+
+
+/* Submission Page */
+
+.submission-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 0 0 0;
+}
+.submission-content form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    width:100%;
+}
+
+.submission-content form .name
+{
+    color: #fff;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 7rem;
+}
+
+.submission-content form h1
+{
+    color: #feb3c9;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.submission-content form h2
+{
+    color: #1d9fad;
+    text-shadow: 1px 1px 1px #f5f5f5;
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+
+
+.submission-content form .sub-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+
+.submission-content form label
+{
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+.submission-content form input, .submission-content form textarea
+{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0px;
+    resize: none;
+    width: 100%;
+    font-family: 'Rokkitt', sans-serif;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+.submission-content form button
+{
+    width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+    .submission-content form .sub-form
+    {
+        flex-direction: column;
+        gap: 0;
+        
+    }
+    
+    .submission-content form label
+    {
+        font-size: 1rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    .submission-content form input,
+    .submission-content form textarea
+    {
+        font-size: 1rem;
+    }
+    
+}
+
+
+/* Registration Page */
+
+.registration-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 0 0;
+}
+.registration-content form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    width:100%;
+}
+.registration-content form .name
+{
+    color: #fff;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 7rem;
+}
+.registration-content form h1
+{
+    font-size: 4rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    margin: 2rem 0;
+    text-align: center;
+    color: #feb3ca;
+}
+
+.registration-content form h2
+{
+    font-size: 3rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0;
+    color: #fea500;
+}
+.registration-content form h3
+{
+    font-size: 1.8rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    margin: 2rem 0;
+    color: #88e714;
+}
+
+.registration-content form .team-info,
+.registration-content form .off-info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.submit-btn-area
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+
+.registration-content form label
+{
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+.registration-content form input, .registration-content form textarea
+{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0px;
+    resize: none;
+    width: 100%;
+    font-family: 'Rokkitt', sans-serif;
+    font-size: 1.4rem;
+    outline: none;
+}
+
+.registration-content form button
+{
+    width: 40%;
+}
+
+@media screen and (max-width: 600px)
+{
+    .registration-content form .reg-form
+    {
+        flex-direction: column;
+        gap: 0;
+        
+    }
+    
+    .registration-content form label
+    {
+        font-size: 1rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    .registration-content form input,
+    .registration-content form textarea
+    {
+        font-size: 1rem;
+    }
+
+    .registration-content form .team-info,
+    .registration-content form .off-info
+    {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .registration-content form .name
+    {
+        font-size: 3.4rem;
+    }
+    .registration-content form h1
+    {
+        font-size: 2.5rem;
+    }
+
+    .registration-content form h2
+    {
+        font-size: 2rem;
+    }
+    .registration-content form h3
+    {
+        font-size: 1rem;
+    }
+    
 }
