@@ -1524,7 +1524,11 @@ footer
 }
 
 
-
+.fa-star
+{
+    font-size: 3rem;
+    color: #fea500;
+}
 
 
 /* Body of Footer */
