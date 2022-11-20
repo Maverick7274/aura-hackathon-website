@@ -165,6 +165,10 @@ body {
   filter: drop-shadow(1px 1px 1px #f5f5f5);
 }
 
+.highlighted-btn.new {
+  filter: drop-shadow(1px 1px 20px #feb3ca);
+}
+
 /* Header */
 * {
   margin: 0;
