@@ -319,6 +319,8 @@ nav .navbar-right ul li a:active
 
     nav .navbar-left h1
     {
+        font-size: 1.5rem;
+        color: #000000;
         display: inline;
     }
     nav .navbar-left #ham-icon {
@@ -725,7 +727,8 @@ nav .navbar-right ul li a:active
     }
 
     .hero-section .content h1 {
-        font-size: 4rem;    
+        font-size: 3rem;
+        margin: 1rem 0;
     }
 
     .hero-section .content h2
