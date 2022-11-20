@@ -309,6 +309,14 @@ nav .navbar-right ul li a:active
 {
     opacity: 0.3;
 }
+@media (max-width: 1080px){
+    nav .navbar-left h1
+    {
+        font-size: 1rem;
+        color: #000000;
+        display: inline;
+    }
+}
   
 @media (max-width: 970px) {
     nav .navbar-left
