@@ -719,8 +719,8 @@ nav .navbar-right ul li a:active
 
 @media (max-width: 680px) {
     .hero-section .content .hero-heading{
-        color: var(--dark-text);
-        text-shadow: 1px 1px 1px white;
+        color: #f5f5f5;
+        text-shadow: 1px 1px 1px var(--dark-text);
         padding: 0px 2em;
     }
 
