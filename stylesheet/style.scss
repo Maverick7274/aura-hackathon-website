@@ -9,6 +9,9 @@
 /* Silkscreen */
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
+// Merriweather
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 
 
@@ -524,7 +527,8 @@ nav .navbar-right ul li a:active
     left: 0;
     width: 100%;
     height: 100%;
-    background:  linear-gradient( 130deg, #fea500, #feb3ca);
+    background:  linear-gradient( 130deg, #125688, #feb3ca);
+    // background:  linear-gradient( 130deg, #fea500, #feb3ca);
     opacity: 0.5;
     z-index: -1;
 }
@@ -588,9 +592,15 @@ nav .navbar-right ul li a:active
     text-shadow: 1px 1px 1px var(--dark-text);
     padding: 0px 4em;
 }
+.hero-section .content .hero-heading .font{
+    font-family: 'Merriweather', serif;
+    font-size: 1.6rem;
+    color: #49b0fa;
+    text-shadow: 1px 1px 1.4px var(--dark-text);
+}
 .hero-section .content .hero-heading .name{
     font-family: 'silkscreen', sans-serif;
-    text-shadow: 1px 1px 5px var(--dark-text);
+    text-shadow: 1px 1px 1.4px var(--dark-text);
     font-weight: 700;
 }
 
@@ -611,7 +621,12 @@ nav .navbar-right ul li a:active
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 4rem;
-    font-style: italic;
+}
+.hero-section .content p
+{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
 }
 
 .hero-section .content a
@@ -984,11 +999,11 @@ nav .navbar-right ul li a:active
     margin: 30px;
     z-index: 1;
 }
-// .prize-container .prize-card:nth-child(2)
-// {
-//     min-width: 350px;
-//     height: 500px;
-// }
+.prize-container .prize-card:nth-child(2)
+{
+    min-width: 350px;
+    height: 500px;
+}
 
 .prize-container .prize-card .prize-box
 {
@@ -1047,7 +1062,7 @@ nav .navbar-right ul li a:active
 
 .prize-container .prize-card .prize-box .prize-content img
 {
-    width: 70px;
+    width: 180px;
     margin: 0 0 20px 0;
 }
 .prize-container .prize-card .prize-box .prize-content h4
@@ -1197,6 +1212,24 @@ nav .navbar-right ul li a:active
     line-height: 1.9rem;
 }
 
+.schedule-content a
+{
+    
+    color: #ff5700;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+.schedule-content a:hover
+{
+    background: #f5f5f5;
+    border-radius: 5px;
+    color: #000;
+}
+.schedule-content a:active
+{
+    color: #fff;
+    background: #1d9fad;
+}
 
 
 
