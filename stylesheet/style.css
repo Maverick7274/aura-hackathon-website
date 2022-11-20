@@ -795,11 +795,6 @@ nav .navbar-right ul li a:active {
   z-index: 1;
 }
 
-.prize-container .prize-card:nth-child(2) {
-  min-width: 350px;
-  height: 500px;
-}
-
 .prize-container .prize-card .prize-box {
   position: absolute;
   top: 20px;
