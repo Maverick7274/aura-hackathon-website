@@ -615,6 +615,7 @@ nav .navbar-right ul li a:active
 .hero-section .content h1 {
     font-size: 9rem;
     font-weight: 700;
+    text-shadow: 1px 1px 1.4px var(--dark-text);
 }
 
 .hero-section .content h2
@@ -622,6 +623,7 @@ nav .navbar-right ul li a:active
     font-size: 2.3rem;
     font-weight: 700;
     margin-bottom: 2rem;
+    text-shadow: 1px 1px 1.4px var(--dark-text);
 }
 // .hero-section .content h3
 // {
@@ -633,7 +635,8 @@ nav .navbar-right ul li a:active
 {
     font-size: 1.2rem;
     font-weight: 400;
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
+    text-shadow: 1px 1px 1.4px var(--dark-text);
 }
 
 .hero-section .content a
@@ -673,7 +676,7 @@ nav .navbar-right ul li a:active
 
 .hero-section .btn-area
 {
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .content .scroll-button
