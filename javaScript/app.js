@@ -66,3 +66,75 @@ function hideSidebar() {
   document.body.style.overflowY = "scroll"
 }
 
+
+// Time
+setInterval(() => {
+    
+  let date = new Date(),
+  hour = date.getHours(),
+  minute = date.getMinutes(),
+  second = date.getSeconds()
+
+  if (hour < 10) {
+      hour = '0' + hour
+  }
+
+  if (minute < 10) {
+      minute = '0' + minute
+  }
+
+  if (second < 10) {
+      second = '0' + second
+  }
+
+
+  document.querySelector('.hour-num').innerText = hour
+  document.querySelector('.min-num').innerText = minute
+  document.querySelector('.sec-num').innerText = second
+
+  let d;
+  if (hour < 12) {
+      d = 'AM'
+  } else {
+      d = 'PM'
+  }
+
+  document.querySelector('.am-pm').innerText = d
+
+}, 1000);
+
+// Countdown
+
+const countDays = document.getElementById('days')
+const countHours = document.getElementById('hours')
+const countMinute = document.getElementById('minutes')
+const countSeconds = document.getElementById('seconds')
+
+const eventTime = new Date('December 12, 2022 09:00:00').getTime()
+
+// update CountDown
+
+function updateCountDown() {
+  const currentTime = new Date()
+  const diff = eventTime - currentTime
+
+  const days = Math.floor(diff / 1000 / 60 / 60 / 24)
+  const hours = Math.floor(diff / 1000 / 60 / 60) % 24
+  const minutes = Math.floor(diff / 1000 / 60) % 60
+  const seconds = Math.floor(diff / 1000) % 60
+
+  countDays.innerHTML = days
+  countHours.innerHTML = hours
+  countMinute.innerHTML = minutes
+  countSeconds.innerHTML = seconds
+
+
+
+
+  // console.log(days)
+  // console.log(hours)
+  // console.log(minutes)
+  // console.log(seconds)
+}
+
+setInterval(updateCountDown, 1000)

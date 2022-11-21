@@ -607,7 +607,6 @@ nav .navbar-right ul li a:active
 .hero-section .content h1 {
     font-size: 9rem;
     font-weight: 700;
-    margin: 0px 10px 2rem 10px;
 }
 
 .hero-section .content h2
@@ -616,12 +615,12 @@ nav .navbar-right ul li a:active
     font-weight: 500;
     margin-bottom: 2rem;
 }
-.hero-section .content h3
-{
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 4rem;
-}
+// .hero-section .content h3
+// {
+//     // font-size: 2rem;
+//     font-weight: 500;
+//     // margin-bottom: 3rem;
+// }
 .hero-section .content p
 {
     font-size: 1.2rem;
@@ -640,6 +639,29 @@ nav .navbar-right ul li a:active
     color: #fff;
 }
 
+// countdown
+
+.countdown
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-time
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+.count-time h3
+{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
 
 .content .scroll-button
 {
@@ -688,6 +710,12 @@ nav .navbar-right ul li a:active
     align-items: center;
 }
 
+.pro-img
+{
+    width: 550px;
+    margin: 0.5rem 0 0.7rem 0;
+}
+
 /* Media Queries for Hero Section */
 
 @media (max-aspect-ratio: 16/9)
@@ -725,12 +753,16 @@ nav .navbar-right ul li a:active
         font-size: 1.3rem;
         font-weight: 500;
         margin-bottom: 4rem;
-        font-style: italic;
     }
 
     .scroll-area
     {
         display: none;
+    }
+
+    .pro-img
+    {
+        width: 240px;
     }
 
 }
@@ -780,25 +812,24 @@ nav .navbar-right ul li a:active
     .hero-section .content h3
     {
         font-size: 1.3rem;
-        font-weight: 500;
-        margin-bottom: 4rem;
-        font-style: italic;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        text-shadow: 1px 1px 1px var(--dark-text);
     }
 }
   
 @media (max-width: 470px) {
     
     .hero-section .content h2 {
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: 500;
         margin-bottom: 2rem;
     }
 
     .hero-section .content h3 {
-        font-size: 1rem;
-        font-weight: 500;
+        font-size: 1.5rem;
+        font-weight: 700;
         margin-bottom: 10px;
-        font-style: italic;
     }
 
 }
@@ -1601,7 +1632,8 @@ footer
 .footer-top
 {
     padding: 20px 20px;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -1630,6 +1662,48 @@ footer
     padding-bottom: 13px;
 }
 
+
+.time
+{
+    color: #fea500;
+    display: flex;
+    align-items: center;
+}
+
+.time .time-box
+{
+    display: flex;
+    align-items: center;
+    background: #000009;
+    color: #88e714;
+    padding: 0.3rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.time .time-box .time-colon
+{
+    display: flex;
+    align-items: center;
+}
+
+.time .time-box .time-colon,
+.time .time-box .time-colon .time-text,
+.time .am-pm
+{
+    letter-spacing: 0.2rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.am-pm
+{
+    background: #feb3ca;
+    color: #000009;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
 
 
 /* Common */

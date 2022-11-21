@@ -67,8 +67,29 @@
         <div class="video-overlay"></div>
         <div class="content">
             <h1>Docket <span class="version">v1</span></h1>
-            <h2 class="hero-heading"><span class="name">Docket <span class="version">v1</span></span> <span class="font">noun</span></h2>
-            <h3 class="hero-heading" style="font-family: 'open sans';">ˈdɒkɪt viː1</h3>
+            <!-- <h2 class="hero-heading"><span class="name">Docket <span class="version">v1</span></span> <span class="font">noun</span></h2> -->
+            <!-- <h3 class="hero-heading" style="font-family: 'open sans';">ˈdɒkɪt viː1</h3> -->
+            <img class="pro-img" src="./images/pronounciation.svg" alt="">
+            <div id="countdown" class="countdown">
+
+                <div class="count-time">
+                    <h3 id="days">00</h3>
+                    <p style="font-size: 1.5rem; text-shadow: 1px 1px 1px var(--dark-text);">Days</p>
+                </div>
+                <div class="count-time">
+                    <h3 id="hours">00</h3>
+                    <p style="font-size: 1.5rem; text-shadow: 1px 1px 1px var(--dark-text);">Hours</p>
+                </div>
+                <div class="count-time">
+                    <h3 id="minutes">00</h3>
+                    <p style="font-size: 1.5rem; text-shadow: 1px 1px 1px var(--dark-text);">Minutes</p>
+                </div>
+                <div class="count-time">
+                    <h3 id="seconds">00</h3>
+                    <p style="font-size: 1.5rem; text-shadow: 1px 1px 1px var(--dark-text);">Seconds</p>
+                </div>
+                
+            </div>
             <div class="btn-area">
                 <a class="hero-btn" href="./registration.html" target="_blank">Register Now</a>
                 <!-- <a class="hero-btn highlighted-btn" href="./problemStatements.html" target="_blank">Problem Statements</a> -->
@@ -507,7 +528,7 @@
 
             <div class="faq-item">
                 <div class="faq-item-header">
-                    What is {Hackathon's Name}?
+                    What is Docket v1?
                 </div>
                 <div class="faq-item-body">
                     <div class="faq-item-body-content">
@@ -635,9 +656,32 @@
         <!-- Footer Head -->
         <div class="footer-top">
             <img src="./images/FusionTechClub.svg" alt="text-logo">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
-            </p>
+            <div class="time">
+                <div class="time-box">
+                    <div class="time-colon">
+                        <div class="time-text">
+                            <span class="num hour-num">00</span>
+                        </div>
+                        <span class="colon">:</span>
+                    </div>
+                    <div class="time-colon">
+                        <div class="time-text">
+                            <span class="num min-num">00</span>
+                        </div>
+                        <span class="colon">:</span>
+                    </div>
+                    <div class="time-colon">
+                        <!-- <span>:</span> -->
+                        <div class="time-text">
+                            <span class="num sec-num">00</span>
+                        </div>
+                    </div>
+                </div>
+                <span class="am-pm">
+                    AM
+                </span>
+            </div>
+        </div>
         </div>
 
         <!-- Footer Body -->
@@ -667,13 +711,13 @@
                 </h3>
                 <div class="links">
                     <div class="links-top">
-                        <a href="#">
+                        <!-- <a href="#">
                             <i class="fa-brands fa-youtube"></i>
-                        </a>
+                        </a> -->
                         <a href="#">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-                        <a href="#">
+                        <!-- <a href="#">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
                         <a href="#">
@@ -681,7 +725,7 @@
                         </a>
                         <a href="#">
                             <i class="fa-brands fa-reddit"></i>
-                        </a>
+                        </a> -->
                         <a href="#">
                             <i class="fa-brands fa-github"></i>
                         </a>
