@@ -28,7 +28,7 @@
         </div>
     </nav>
     <section class="submission-content">
-        <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdBFTVeHKit0N9VqlCqAqloGjz1GxFGcVfDcHIHZ72G99ajaw/formResponse" target="_blank">
+        <form method="post" action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdBFTVeHKit0N9VqlCqAqloGjz1GxFGcVfDcHIHZ72G99ajaw/formResponse" target="_blank">
             <h1>
                 <span class="name">Docket <span class="version"> v1</span></span><br>Submission
             </h1>
@@ -42,10 +42,10 @@
                     <input type="text" name="entry.60129991" id="name" placeholder="Enter your Name of 1st Member" required>
                     
                     <label for="name">1st Member's E-Mail</label>
-                    <input type="text" name="entry.1135616677" id="name" placeholder="Enter your 1st Member's Email" required>
+                    <input type="text" name="entry.416980172" id="name" placeholder="Enter your 1st Member's Email" required>
                     
                     <label for="name">Name of 2nd Member</label>
-                    <input type="text" name="name" id="name" placeholder="Enter your Name of 2nd Member" required>
+                    <input type="text" name="entry.1135616677" id="name" placeholder="Enter your Name of 2nd Member" required>
                     
                     <label for="name">Name of 3rd Member</label>
                     <input type="text" name="entry.1739555793" id="name" placeholder="Enter your Name of 3rd Member" required>
@@ -71,9 +71,15 @@
                 </div>
             </div>
 
+            <!-- <button class="submit-btn" type="submit" onclick="hrefFunction()">Submit</button> -->
             <button class="submit-btn" type="submit">Submit</button>
         </form>
     </section>
 </body>
 <script src="./javaScript/app.js"></script>
+<script>
+    function hrefFunction() {
+               window.location.href = "./successfulmessagesub.html";
+    }
+</script>
 </html>
