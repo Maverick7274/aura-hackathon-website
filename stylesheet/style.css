@@ -607,7 +607,7 @@ nav .navbar-right ul li a:active {
   .hero-section .content h3 {
     font-size: 1.3rem;
     font-weight: 500;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
   .scroll-area {
     display: none;
@@ -668,6 +668,15 @@ nav .navbar-right ul li a:active {
     font-weight: 700;
     margin-bottom: 10px;
   }
+}
+@media (max-width: 390px){
+    .count-time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 8px;
+    }
 }
 /* Domains */
 .domain-main-content {
