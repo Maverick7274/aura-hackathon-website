@@ -153,6 +153,14 @@ body
 
 
 
+@media (max-width: 385px){
+    #domain h1, #prize h1, #judges h1, #schedule h1, #partners h1, #faqs h1, #contact h1{
+        font-size: 3rem;
+    }
+}
+
+
+
 
 
 /* ---------- Utility Buttons ------------ */
@@ -998,6 +1006,17 @@ nav .navbar-right ul li a:active
 
 
 
+
+
+
+@media (max-width: 360px){
+    .domain-container .domain-card {
+        margin: 30px 0px;
+    }
+}
+
+
+
 /* Prizes */
 
 .prize
@@ -1164,6 +1183,25 @@ nav .navbar-right ul li a:active
 {
     color: #fff;
 }
+
+
+
+
+@media (max-width: 415px){
+    
+
+    .prize-container .prize-card:nth-child(2) {
+        min-width: 272px;
+        height: 500px;
+    }
+
+    .prize-container .prize-card {
+        margin: 30px 0px;
+        min-width: 272px;
+    }
+}
+
+
 
 
 /* Schedule */
@@ -1426,6 +1464,15 @@ nav .navbar-right ul li a:active
 }
 
 
+
+@media (max-width: 360px) {
+    .judges-card {
+        margin: 25px 0px;
+    }
+}
+
+
+
 /* FAQs */
 
 .faq
@@ -1611,6 +1658,12 @@ nav .navbar-right ul li a:active
     .contact-main-content .contact-flex-right .map
     {
         display: none;
+    }
+}
+
+@media (max-width: 400px){
+    .contact-flex-left{
+        margin-left: 0px;
     }
 }
 
@@ -1929,6 +1982,10 @@ textarea:focus
 }
 
 @media (max-width: 450px) {
+
+    .time{
+        display: none;
+    }
 
     footer{
         padding: 20px 1em;
